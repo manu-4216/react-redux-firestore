@@ -4,16 +4,16 @@ import EventDashboard from '../../features/event/EventDashboard/EventDashboard';
 import NavBar from '../../features/nav/NavBar/NavBar';
 
 class App extends Component {
-    render() {
-        return (
-            <Fragment>
-                <NavBar />
-                <Container className="main">
-                    <EventDashboard />
-                </Container>
-            </Fragment>
-        );
-    }
+  render() {
+    return (
+      <Fragment>
+        <NavBar />
+        <Container className="main">
+          <EventDashboard />
+        </Container>
+      </Fragment>
+    );
+  }
 }
 
 export default App;
